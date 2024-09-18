@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Firmino</title>
+
+    <style>
+      body {
+        text-align: center;
+      }
+      fieldset {
+        width: 50%;
+        border: thin solid gray;
+        border-radius: 2%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Botões de rádio</h1>
+
+    <form action="" method="get">
+      <fieldset>
+        <legend>Selecione as opções</legend>
+
+        <p>Gênero:</p>
+        <input type="radio" name="sexo" id="masculino" value="M">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="sexo" id="feminino" value="F">
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="sexo" id="outros" value="O">
+        <label for="outros">Outros</label>
+
+        <p>Estado civil:</p>
+        <input type="radio" name="estado_civil" id="solteiro" value="S" checked>
+        <label for="solteiro">Solteiro</label>
+        <input type="radio" name="estado_civil" id="casado" value="C">
+        <label for="casado">Casado</label>
+        <input type="radio" name="estado_civil" id="divorciado" value="D">
+        <label for="divorciado">Divorciado(a)</label><br><br>
+
+        <button type="submit">Enviar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

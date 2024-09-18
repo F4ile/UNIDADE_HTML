@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Firmino</title>
+
+    <style>
+      body {
+        text-align: center;
+      }
+      fieldset {
+        width: 50%;
+        border: thin solid gray;
+        border-radius: 2%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Controle datalist - Lista de suguestão</h1>
+
+    <fieldset>
+      <legend>Localizar</legend>
+      <form action="" method="get">
+        <input
+          type="text"
+          name="busca"
+          id="busca"
+          list="buscar"
+          placeholder="Procurar..."
+        />
+        <button type="submit">Procurar</button>
+
+        <datalist id="buscar">
+          <option value="Luanda"></option>
+          <option value="Moxico"></option>
+          <option value="Bié"></option>
+          <option value="Benguela"></option>
+          <option value="Cabinda"></option>
+          <option value="Huíla"></option>
+          <option value="Cuando Cubango"></option>
+        </datalist>
+      </form>
+    </fieldset>
+  </body>
+</html>
